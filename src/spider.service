@@ -1,0 +1,13 @@
+[Unit]
+Description=Runs spider with attached motion sensor
+
+[Service]
+Type=simple
+WorkingDirectory=/home/steveroe/halloween-2025
+ExecStart=/home/steveroe/halloween-2025/env/bin/python3 ./src/spider.py
+User=steveroe
+Group=steveroe
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
