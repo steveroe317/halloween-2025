@@ -48,6 +48,17 @@ spider's eyes are inside the spider.
 
 ![Controller enclosure](images/controller-enclosure.png)
 
+To set up the software clone the spider repository and set up a virtual environment.
+
+```
+git clone https://github.com/steveroe317/halloween-2025.git
+cd halloween-2025
+python -m venv env
+source env/bin/activate
+python -m pip install -r requirements.text
+```
+
+
 # Running the App
 
 The app runs inside a python virual environment.
