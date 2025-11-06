@@ -11,15 +11,31 @@ service that restarts on failure or reboot.
 
 Raspberry Pi Zero 2W with a working WiFi connection.
 
-Logic buffer - SN74AHCT125N or equivalent
+Logic buffer - SN74AHCT125N or equivalent.
 
-LEDs
+10K ohm resistor(s) for logic buffer output enable pullups.
 
-Motion Sensor - AdaFruit PIR or equivalent
+LEDs for the spider eyes.
+
+220 ohm curent limiting resistors for the LEDs .
+
+Motion Sensor - AdaFruit PIR or equivalent.
+
+5V power supply.
+
+Spider model for the LEDs.
+
+A breadboard or protoboard for the logic buffer and pullup resistors.
+
+Wires and or jumpers to connect components.
+
+Enclosures for the motion sensor and raspberry pi / logic buffer.
 
 # Setup
 
 ![LED spider setup](images/spider-setup.png)
+
+![Controller enclosure](images/controller-enclosure.png)
 
 # Running the App
 
@@ -75,7 +91,7 @@ sudo systemctl start spider.service
 Check that the service by running
 
 ```
-sudo systemctl status trailer_warmer.service
+sudo systemctl status spider.service
 ```
 
 systemd logs for the service can be viewd by running
