@@ -33,7 +33,18 @@ Enclosures for the motion sensor and raspberry pi / logic buffer.
 
 # Setup
 
+This is the hardware setup for Halloween 2025.  It's OK for under cover
+but is far from waterproof.  There is a spider model with LED eyes connected
+to a controller which connects to a motion sensor and a 5V power supply.
+
 ![LED spider setup](images/spider-setup.png)
+
+The controller box has the raspberry pi and the circuit with the logic buffer.
+The raspberry pi drives the logic buffer inputs and the stronger logic buffer 
+outputs drive the LEDs.
+There is a LED and resistor inside the controller box so that it can be
+tested without the spider attached.  The current limiting resistors for the
+spider's eyes are inside the spider.
 
 ![Controller enclosure](images/controller-enclosure.png)
 
