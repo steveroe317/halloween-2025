@@ -19,7 +19,7 @@ Motion Sensor - AdaFruit PIR or equivalent
 
 # Setup
 
-![LED spider setup][http:images/spider-setup.png]
+![LED spider setup][https://github.com/steveroe317/halloween-2025/blob/main/images/spider-setup.png]
 
 # Running the App
 
