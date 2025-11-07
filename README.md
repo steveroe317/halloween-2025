@@ -7,6 +7,10 @@ and waits for the next motion detection.
 The project can be run either as a standalone app or installed as a system
 service that restarts on failure or reboot.
 
+The spider in the photos below is a modified version of the 
+[Giant Vase Spider](https://www.printables.com/model/288796-giant-vase-spider-posable-halloween-print-in-vase-)
+from printables.com by Crazy3D.
+
 # Materials
 
 Raspberry Pi Zero 2W with a working WiFi connection.
@@ -169,8 +173,10 @@ sudo systemctl disable spider.service
 Hardware, software, and documentation for Raspberry Pi single
 board computers and microcontrollers.
 
-Digital Loggers
-[IoT Relay page](https://www.digital-loggers.com/iot2.html).
+[Adafruit PIR (motion) sensor](https://www.adafruit.com/product/189?gad_source=1&gad_campaignid=21079227318&gbraid=0AAAAADx9JvQFR67cAk8aW_moc3PzP6tfq&gclid=Cj0KCQiAq7HIBhDoARIsAOATDxDf2OzhtWYiJegdd6SXrvOWNO8V-0JanNBY5PXaD1u7NLKJEOoiA4UaAntHEALw_wcBl)
+product ID: 189
+
+[SN74AHCT125N logic buffer](https://www.ti.com/lit/ds/symlink/sn74ahct125.pdf)
 
 RedHat
 [systemctl how-to](https://www.redhat.com/en/blog/linux-systemctl-manage-services)
@@ -179,3 +185,6 @@ article.
 Medium
 [Linux service how-to](https://medium.com/@benmorel/creating-a-linux-service-with-systemd-611b5c8b91d6)
 article.
+
+[Giant Vase Spider](https://www.printables.com/model/288796-giant-vase-spider-posable-halloween-print-in-vase-)
+
