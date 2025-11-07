@@ -17,7 +17,7 @@ Logic buffer - SN74AHCT125N or equivalent.
 
 LEDs for the spider eyes.
 
-220 ohm curent limiting resistors for the LEDs .
+220 ohm current limiting resistors for the LEDs .
 
 Motion Sensor - AdaFruit PIR or equivalent.
 
@@ -73,7 +73,7 @@ python -m pip install -r requirements.txt
 
 # Running the App
 
-The app runs inside a python virual environment.
+The app runs inside a python virtual environment.
 
 To run the app, follow these steps:
 
