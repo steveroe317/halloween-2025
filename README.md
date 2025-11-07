@@ -48,6 +48,18 @@ spider's eyes are inside the spider.
 
 ![Controller enclosure](images/controller-enclosure.png)
 
+Raspberry Pi 40 pin connections:
+
+| Pin # | Pin name | Connects to |
+|---|---|---|
+|Pin 2 | VCC | Power supply VCC |
+| Pin 4 | GND | Power supply GND |
+| Pin 7 | GPIO 5 | PIR output |
+| Pin 32 | GPIO 12 | Logic buffer output enable (active low) |
+|Pin 37 | GPIO 26 | Logic buffer input |
+
+![Controller wiring](images/controller-wiring.png)
+
 To set up the software clone the spider repository and set up a virtual environment.
 
 ```
