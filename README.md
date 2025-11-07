@@ -55,7 +55,7 @@ git clone https://github.com/steveroe317/halloween-2025.git
 cd halloween-2025
 python -m venv env
 source env/bin/activate
-python -m pip install -r requirements.text
+python -m pip install -r requirements.txt
 ```
 
 
